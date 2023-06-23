@@ -1,0 +1,201 @@
+.contact {
+    margin: 0;
+    padding: 2% 10%;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-ttl {
+    margin: 2% 0;
+    padding: 0 10%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contact-form {
+    margin: 0;
+    padding: 2% 10%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-table {
+    margin: 2% 0;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    display: block;
+    text-align: center;
+}
+
+tbody {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+tr {
+    margin: 0;
+    padding: 1% 0;
+    display: flex;
+}
+
+.contact-tr-error {
+    padding: 0;
+}
+
+th {
+    text-align: left;
+}
+
+.contact-item {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 30%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.contact-body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 70%;
+    display: flex;
+}
+
+.form-text {
+    margin: 0 2% 0 0;
+    padding: 0 2%;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    border-radius: 7%;
+    border: solid 1px #808080
+}
+
+.form-textarea {
+    margin: 0 2% 0 0;
+    padding: 2% 2%;
+    height: 100%;
+    width: 100%;
+    border-radius: 2%;
+    order: solid 1px #808080
+}
+
+.contact-require {
+    color: #FF0000;
+}
+
+.contact-body-comment {
+    margin: 0 0 0 3%;
+    padding: 0;
+    display: flex;
+    color: #808080;
+}
+
+.contact-body-comment-name {
+    margin: 0 0 0 3%;
+    padding: 0;
+    width: 35%;
+    display: flex;
+    color: #808080;
+}
+
+.contact-body-comment-error {
+    margin: 0 0 0 3%;
+    padding: 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    color: #FF0000
+}
+
+.contact-gender {
+    margin: 0 2% 0 0;
+    padding: 0;
+    height: 30px;
+    width: 25%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.contact-gender-radio {
+    margin: 0 2% 0 0;
+    padding: 0 2% 0 0;
+    height: 30px;
+    width: 25%;
+}
+
+.contact-gender-txt {
+    margin: 0 7%;
+    padding: 0;
+    height: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.contact-postal-txt {
+    margin: 0 2% 0 0;
+    padding: 0;
+    height: 30px;
+    width: 10%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.contact-button {
+    margin: 2% 0;
+    padding: 0 40%;
+    height: 100%;
+    width: 100%;
+}
+
+.form-button {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 100%;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 10%;
+}
+
+
+/* レスポンシブ（768px以下） */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .contact {
+        padding: 1% 3%;
+    }
+
+    .contact-form {
+        padding: 0;
+    }
+}
