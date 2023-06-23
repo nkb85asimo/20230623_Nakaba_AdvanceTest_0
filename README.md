@@ -1,4 +1,4 @@
-# 20230623_Nakaba_AdvanceTest_0
+20230623_Nakaba_AdvanceTest
 # 意見集約／管理アプリ
  
  
